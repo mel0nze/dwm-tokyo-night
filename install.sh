@@ -24,9 +24,9 @@ sudo make install
 
 cd ..
 
-echo "exec dwm" >> ~/.xinirc
-echo "slstatus &" >> ~/.xinirc
-sudo echo "export PS1='\[\e[38;5;175m\]\u@\h\[\e[0m\] \[\e[38;5;244m\]\W\[\e[0m\] \$ '" >> .bashrc
+echo "exec dwm" >> ~/.xinitrc
+echo "slstatus &" >> ~/.xinitrc
+sudo echo "export PS1='\[\e[38;5;175m\]\u@\h\[\e[0m\] \[\e[38;5;244m\]\W\[\e[0m\] \$ '" >> ~/.bashrc
 
 source ~/.bashrc
 
