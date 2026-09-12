@@ -24,8 +24,10 @@ sudo make install
 
 cd ..
 
-echo "exec dwm" >> ~/.xinitrc
+
+echo "cd" >> ~/.xinitrc
 echo "slstatus &" >> ~/.xinitrc
+echo "exec dwm" >> ~/.xinitrc
 sudo echo "export PS1='\[\e[38;5;175m\]\u@\h\[\e[0m\] \[\e[38;5;244m\]\W\[\e[0m\] \$ '" >> ~/.bashrc
 
 source ~/.bashrc
