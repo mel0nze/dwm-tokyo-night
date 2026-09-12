@@ -12,7 +12,7 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 ## Features
 
 + Tokyo Night colorscheme
-+ Minimal dwm (Uses about 200mb on idle)
++ Minimal dwm (Uses about 150mb on idle)
 + Custom bash prompt
 + Centered dmenu
 + Nerd Font icons in the bar
